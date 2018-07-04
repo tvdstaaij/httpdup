@@ -1,6 +1,6 @@
 {
   "name": "httpdup",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility to unidirectionally duplicate HTTP requests to different hosts",
   "author": "Tim van der Staaij",
   "license": "MIT",
@@ -13,7 +13,9 @@
   },
   "homepage": "https://github.com/tvdstaaij/httpdup#readme",
   "main": "httpdup.js",
-  "bin": "./httpdup.js",
+  "bin": {
+    "httpdup": "./httpdup.js"
+  },
   "engines": {
     "node": ">=6.0.0"
   },
